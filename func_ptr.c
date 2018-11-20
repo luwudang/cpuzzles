@@ -7,17 +7,17 @@ int add(int x,int y)
 	return  x + y;
 }
 
-int substract(int x,int y)
+int sub(int x,int y)
 {
 	return x - y;
 }
 
-int multiply(int x,int y)
+int mul(int x,int y)
 {
 	return x * y;
 }
 
-int division(int x,int y)
+int div(int x,int y)
 {
 	return x / y;
 }
@@ -36,9 +36,9 @@ int main(void)
 {	
 	int num1 = 100,num2 = 250;
 	printf("%d\n",cal(add,num1,num2));
-	printf("%d\n",cal(substract,num1,num2));
-	printf("%d\n",cal(multiply,num1,num2));
-	printf("%d\n",cal(division,num1,num2));
+	printf("%d\n",cal(sub,num1,num2));
+	printf("%d\n",cal(mul,num1,num2));
+	printf("%d\n",cal(div,num1,num2));
 	printf("%d\n",cal(mod,num1,num2));
 
 	return 0;
