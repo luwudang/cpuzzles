@@ -51,3 +51,46 @@ int main(void)
 	   0
 	   100
  */
+
+
+//下面是js版本
+
+function print(x) {
+    document.write(x);
+}
+
+function println(x) {
+    print(x + "<br />");
+}
+
+function add(x,y) {
+    return x + y;
+}
+
+function sub(x,y) {
+    return x - y;
+}
+
+function mul(x,y) {
+    return x * y;
+}
+
+function  div(x,y) {
+    return x / y;
+}
+
+function mod(x,y) {
+    return x % y;
+}
+
+function cal(f,x,y) {
+    return f(x,y);
+}
+
+var a = 100;
+var b = 30;
+println(cal(add,a,b));
+println(cal(sub,a,b));
+println(cal(mul,a,b));
+println(cal(div,a,b));
+println(cal(mod,a,b));
