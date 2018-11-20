@@ -2,23 +2,28 @@
 
 typedef int (*FUNC_PTR)(int a,int b);//定义函数指针类型
 
-int add(int x,int y){
+int add(int x,int y)
+{
 	return  x + y;
 }
 
-int substract(int x,int y){
+int substract(int x,int y)
+{
 	return x - y;
 }
 
-int multiply(int x,int y){
+int multiply(int x,int y)
+{
 	return x * y;
 }
 
-int division(int x,int y){
+int division(int x,int y)
+{
 	return x / y;
 }
 
-int mod(int x,int y){
+int mod(int x,int y)
+{
 	return x % y;
 }
 
